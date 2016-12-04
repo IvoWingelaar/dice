@@ -1,0 +1,15 @@
+[package]
+name = "dice"
+version = "0.1.0"
+authors = ["Ivo Wingelaar <ivo.wingelaar@gmail.com>"]
+description = "A crate for calculating arbitrary dice probabilities"
+license = "MIT"
+keywords = ["probability", "dice", "die", "statistics", "stats"]
+homepage = "https://github.com/IvoWingelaar/dice"
+repository = "https://github.com/IvoWingelaar/dice"
+
+[lib]
+name = "dice"
+path = "src/lib.rs"
+
+[dependencies]
